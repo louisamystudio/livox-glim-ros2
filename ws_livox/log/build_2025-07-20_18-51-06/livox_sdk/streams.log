@@ -1,0 +1,103 @@
+[0.038s] Invoking command in '/home/ubpi5/ws_livox/build/livox_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubpi5/ws_livox/src/Livox-SDK -DCMAKE_INSTALL_PREFIX=/home/ubpi5/ws_livox/install/livox_sdk
+[0.062s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.062s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.063s]   CMake.
+[0.063s] 
+[0.063s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.063s]   CMake that the project does not need compatibility with older versions.
+[0.063s] 
+[0.063s] [0m
+[0.098s] -- main project dir: /home/ubpi5/ws_livox/src/Livox-SDK
+[0.100s] [0mCMake Deprecation Warning at sdk_core/CMakeLists.txt:1 (cmake_minimum_required):
+[0.100s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.100s]   CMake.
+[0.100s] 
+[0.100s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.101s]   CMake that the project does not need compatibility with older versions.
+[0.101s] 
+[0.101s] [0m
+[0.105s] [0mCMake Deprecation Warning at sample/hub/CMakeLists.txt:1 (cmake_minimum_required):
+[0.106s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.106s]   CMake.
+[0.106s] 
+[0.106s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.107s]   CMake that the project does not need compatibility with older versions.
+[0.107s] 
+[0.107s] [0m
+[0.108s] [0mCMake Deprecation Warning at sample/lidar/CMakeLists.txt:1 (cmake_minimum_required):
+[0.108s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.109s]   CMake.
+[0.109s] 
+[0.109s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.111s]   CMake that the project does not need compatibility with older versions.
+[0.114s] 
+[0.114s] [0m
+[0.115s] [0mCMake Deprecation Warning at sample/hub_lvx_file/CMakeLists.txt:1 (cmake_minimum_required):
+[0.115s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.115s]   CMake.
+[0.115s] 
+[0.115s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.115s]   CMake that the project does not need compatibility with older versions.
+[0.115s] 
+[0.115s] [0m
+[0.115s] [0mCMake Deprecation Warning at sample/lidar_lvx_file/CMakeLists.txt:1 (cmake_minimum_required):
+[0.115s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.116s]   CMake.
+[0.116s] 
+[0.119s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.119s]   CMake that the project does not need compatibility with older versions.
+[0.120s] 
+[0.120s] [0m
+[0.120s] [0mCMake Deprecation Warning at sample_cc/hub/CMakeLists.txt:1 (cmake_minimum_required):
+[0.120s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.120s]   CMake.
+[0.120s] 
+[0.120s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.122s]   CMake that the project does not need compatibility with older versions.
+[0.122s] 
+[0.122s] [0m
+[0.123s] [0mCMake Deprecation Warning at sample_cc/lidar/CMakeLists.txt:1 (cmake_minimum_required):
+[0.123s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.123s]   CMake.
+[0.123s] 
+[0.123s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.123s]   CMake that the project does not need compatibility with older versions.
+[0.124s] 
+[0.124s] [0m
+[0.124s] [0mCMake Deprecation Warning at sample_cc/trouble_shooting/CMakeLists.txt:1 (cmake_minimum_required):
+[0.124s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.124s]   CMake.
+[0.124s] 
+[0.124s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.124s]   CMake that the project does not need compatibility with older versions.
+[0.124s] 
+[0.124s] [0m
+[0.125s] [0mCMake Deprecation Warning at sample_cc/lidar_utc_sync/CMakeLists.txt:1 (cmake_minimum_required):
+[0.125s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.125s]   CMake.
+[0.125s] 
+[0.125s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.125s]   CMake that the project does not need compatibility with older versions.
+[0.125s] 
+[0.125s] [0m
+[0.125s] -- Configuring done (0.1s)
+[0.269s] -- Generating done (0.1s)
+[0.311s] -- Build files have been written to: /home/ubpi5/ws_livox/build/livox_sdk
+[0.318s] Invoked command in '/home/ubpi5/ws_livox/build/livox_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubpi5/ws_livox/src/Livox-SDK -DCMAKE_INSTALL_PREFIX=/home/ubpi5/ws_livox/install/livox_sdk
+[0.321s] Invoking command in '/home/ubpi5/ws_livox/build/livox_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubpi5/ws_livox/build/livox_sdk -- -j4 -l4
+[0.522s] [ 54%] Built target livox_sdk_static
+[0.585s] [ 58%] Built target hub_sample
+[0.652s] [ 64%] Built target lidar_lvx_sample
+[0.715s] [ 70%] Built target hub_sample_cc
+[0.783s] [ 77%] Built target lidar_sample_cc
+[0.840s] [ 81%] Built target trouble_shooting
+[0.916s] [ 89%] Built target lidar_utc_sync
+[0.993s] [ 95%] Built target hub_lvx_sample
+[1.102s] [100%] Built target lidar_sample
+[1.136s] Invoked command in '/home/ubpi5/ws_livox/build/livox_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubpi5/ws_livox/build/livox_sdk -- -j4 -l4
+[1.171s] Invoking command in '/home/ubpi5/ws_livox/build/livox_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubpi5/ws_livox/build/livox_sdk
+[1.196s] -- Install configuration: ""
+[1.197s] -- Up-to-date: /home/ubpi5/ws_livox/install/livox_sdk/lib/liblivox_sdk_static.a
+[1.197s] -- Up-to-date: /home/ubpi5/ws_livox/install/livox_sdk/include/livox_def.h
+[1.197s] -- Up-to-date: /home/ubpi5/ws_livox/install/livox_sdk/include/livox_sdk.h
+[1.202s] Invoked command in '/home/ubpi5/ws_livox/build/livox_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubpi5/ws_livox/build/livox_sdk

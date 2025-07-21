@@ -1,0 +1,17 @@
+-- main project dir: /home/ubpi5/ws_livox/src/Livox-SDK
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ubpi5/ws_livox/build/livox_sdk
+[ 54%] Built target livox_sdk_static
+[ 58%] Built target hub_sample
+[ 64%] Built target lidar_lvx_sample
+[ 70%] Built target hub_sample_cc
+[ 77%] Built target lidar_sample_cc
+[ 81%] Built target trouble_shooting
+[ 89%] Built target lidar_utc_sync
+[ 95%] Built target hub_lvx_sample
+[100%] Built target lidar_sample
+-- Install configuration: ""
+-- Up-to-date: /home/ubpi5/ws_livox/install/livox_sdk/lib/liblivox_sdk_static.a
+-- Up-to-date: /home/ubpi5/ws_livox/install/livox_sdk/include/livox_def.h
+-- Up-to-date: /home/ubpi5/ws_livox/install/livox_sdk/include/livox_sdk.h

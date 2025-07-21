@@ -1,0 +1,6 @@
+Invoking command in '/home/ubpi5/ws_livox/build/livox_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubpi5/ws_livox/src/Livox-SDK -DCMAKE_INSTALL_PREFIX=/home/ubpi5/ws_livox/install/livox_sdk
+Invoked command in '/home/ubpi5/ws_livox/build/livox_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubpi5/ws_livox/src/Livox-SDK -DCMAKE_INSTALL_PREFIX=/home/ubpi5/ws_livox/install/livox_sdk
+Invoking command in '/home/ubpi5/ws_livox/build/livox_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubpi5/ws_livox/build/livox_sdk -- -j4 -l4
+Invoked command in '/home/ubpi5/ws_livox/build/livox_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubpi5/ws_livox/build/livox_sdk -- -j4 -l4
+Invoking command in '/home/ubpi5/ws_livox/build/livox_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubpi5/ws_livox/build/livox_sdk
+Invoked command in '/home/ubpi5/ws_livox/build/livox_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubpi5/ws_livox/build/livox_sdk

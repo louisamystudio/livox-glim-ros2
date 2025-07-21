@@ -1,0 +1,22 @@
+{
+  "sensors": {
+    "T_lidar_imu": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+    "imu_acc_noise": 0.01,
+    "imu_gyro_noise": 0.001,
+    "imu_bias_noise": 0.001,
+    "imu_int_noise": 0.001,
+    "imu_frame_id": "livox_frame",
+    "lidar_frame_id": "lidar",
+    "lidar_topic": "/livox/lidar",
+    "imu_topic": "/livox/imu",
+    "enable_auto_topic_detection": false,
+    "intensity_field": "intensity",
+    "ring_field": "",
+    "autoconf_perpoint_times": true,
+    "autoconf_prefer_frame_time": true,
+    "perpoint_relative_time": true,
+    "perpoint_time_scale": 1e-9,
+    "global_shutter_camera": false,
+    "downsample_depth_image": false
+  }
+}

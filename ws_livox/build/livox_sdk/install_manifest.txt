@@ -1,0 +1,3 @@
+/home/ubpi5/ws_livox/install/livox_sdk/lib/liblivox_sdk_static.a
+/home/ubpi5/ws_livox/install/livox_sdk/include/livox_def.h
+/home/ubpi5/ws_livox/install/livox_sdk/include/livox_sdk.h

@@ -1,0 +1,113 @@
+[0.028s] Invoking command in '/home/ubpi5/ws_livox/build/livox_ros2_driver': CMAKE_PREFIX_PATH=/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorLKAMNa/usr/lib/:/tmp/.mount_CursorLKAMNa/usr/lib32/:/tmp/.mount_CursorLKAMNa/usr/lib64/:/tmp/.mount_CursorLKAMNa/lib/:/tmp/.mount_CursorLKAMNa/lib/i386-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/x86_64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/aarch64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib32/:/tmp/.mount_CursorLKAMNa/lib64/ /usr/bin/cmake /home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubpi5/ws_livox/install/livox_ros2_driver
+[0.060s] -- livox_ros2_driver version: 0.0.1
+[0.060s] -- Found ament_cmake_auto: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.551s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.845s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.863s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.051s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.057s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.203s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.698s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.699s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.699s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.699s]   cmake_policy command to set the policy and suppress this warning.
+[1.699s] 
+[1.699s]   CMake variable FLANN_ROOT is set to:
+[1.699s] 
+[1.699s]     /usr
+[1.699s] 
+[1.699s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.699s]   .cmake module might still use it.
+[1.699s] Call Stack (most recent call first):
+[1.699s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.700s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.700s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.700s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.700s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.700s]   /opt/ros/jazzy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.700s]   CMakeLists.txt:30 (ament_auto_find_build_dependencies)
+[1.700s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.700s] [0m
+[1.703s] -- Found flann version 1.9.2
+[3.088s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.109s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.996s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.015s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.818s] -- Found Qhull version 8.0.2
+[5.641s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.514s] [33mCMake Warning (dev) at CMakeLists.txt:31 (find_package):
+[6.514s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[6.514s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[6.514s]   command to set the policy and suppress this warning.
+[6.514s] 
+[6.515s]   CMake variable PCL_ROOT is set to:
+[6.515s] 
+[6.515s]     /usr
+[6.515s] 
+[6.515s]   For compatibility, CMake is ignoring the variable.
+[6.515s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.515s] [0m
+[6.543s] [0m/usr/include/apr-1.0[0m
+[6.543s] [0mapr-1[0m
+[6.566s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.593s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.600s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.600s] -- Configured cppcheck include dirs: /home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/../Livox-SDK/sdk_core/include;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/common;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/common/rapidjson;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/comon/rapdidxml;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/common/comm;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/timesync;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/timesync/user_uart;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver
+[6.600s] -- Configured cppcheck exclude dirs and/or files: 
+[6.606s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.606s] -- Configured cpplint exclude dirs and/or files: 
+[6.608s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.608s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.610s] -- Added test 'lint_cmake' to check CMake code style
+[6.611s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.617s] -- Added test 'uncrustify' to check C / C++ code style
+[6.617s] -- Configured uncrustify additional arguments: 
+[6.619s] -- Added test 'xmllint' to check XML markup files
+[6.626s] -- Configuring done (6.6s)
+[6.834s] -- Generating done (0.2s)
+[6.866s] -- Build files have been written to: /home/ubpi5/ws_livox/build/livox_ros2_driver
+[6.925s] Invoked command in '/home/ubpi5/ws_livox/build/livox_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorLKAMNa/usr/lib/:/tmp/.mount_CursorLKAMNa/usr/lib32/:/tmp/.mount_CursorLKAMNa/usr/lib64/:/tmp/.mount_CursorLKAMNa/lib/:/tmp/.mount_CursorLKAMNa/lib/i386-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/x86_64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/aarch64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib32/:/tmp/.mount_CursorLKAMNa/lib64/ /usr/bin/cmake /home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubpi5/ws_livox/install/livox_ros2_driver
+[6.928s] Invoking command in '/home/ubpi5/ws_livox/build/livox_ros2_driver': CMAKE_PREFIX_PATH=/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorLKAMNa/usr/lib/:/tmp/.mount_CursorLKAMNa/usr/lib32/:/tmp/.mount_CursorLKAMNa/usr/lib64/:/tmp/.mount_CursorLKAMNa/lib/:/tmp/.mount_CursorLKAMNa/lib/i386-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/x86_64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/aarch64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib32/:/tmp/.mount_CursorLKAMNa/lib64/ /usr/bin/cmake --build /home/ubpi5/ws_livox/build/livox_ros2_driver -- -j4 -l4
+[7.161s] [ 87%] Built target livox_ros2_driver
+[7.229s] [100%] Built target livox_ros2_driver_node
+[7.261s] Invoked command in '/home/ubpi5/ws_livox/build/livox_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorLKAMNa/usr/lib/:/tmp/.mount_CursorLKAMNa/usr/lib32/:/tmp/.mount_CursorLKAMNa/usr/lib64/:/tmp/.mount_CursorLKAMNa/lib/:/tmp/.mount_CursorLKAMNa/lib/i386-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/x86_64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/aarch64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib32/:/tmp/.mount_CursorLKAMNa/lib64/ /usr/bin/cmake --build /home/ubpi5/ws_livox/build/livox_ros2_driver -- -j4 -l4
+[7.265s] Invoking command in '/home/ubpi5/ws_livox/build/livox_ros2_driver': CMAKE_PREFIX_PATH=/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorLKAMNa/usr/lib/:/tmp/.mount_CursorLKAMNa/usr/lib32/:/tmp/.mount_CursorLKAMNa/usr/lib64/:/tmp/.mount_CursorLKAMNa/lib/:/tmp/.mount_CursorLKAMNa/lib/i386-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/x86_64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/aarch64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib32/:/tmp/.mount_CursorLKAMNa/lib64/ /usr/bin/cmake --install /home/ubpi5/ws_livox/build/livox_ros2_driver
+[7.287s] -- Install configuration: "Release"
+[7.288s] -- Execute custom install script
+[7.290s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node
+[7.290s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.sh
+[7.290s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.dsv
+[7.290s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/lib/liblivox_ros2_driver.so
+[7.290s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/avia_config.json
+[7.291s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub.rviz
+[7.291s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub_config.json
+[7.291s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar.rviz
+[7.291s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar_config.json
+[7.292s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_launch.py
+[7.292s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_msg_launch .py
+[7.293s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_rviz_launch.py
+[7.294s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py
+[7.296s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_msg_launch.py
+[7.297s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py
+[7.297s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py
+[7.297s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver
+[7.297s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver
+[7.298s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh
+[7.298s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.dsv
+[7.298s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.sh
+[7.298s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.dsv
+[7.298s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.bash
+[7.298s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.sh
+[7.299s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.zsh
+[7.299s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.dsv
+[7.299s] -- Symlinking: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv
+[7.323s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/ament_index/resource_index/packages/livox_ros2_driver
+[7.323s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/ament_index/resource_index/rclcpp_components/livox_ros2_driver
+[7.323s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.323s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[7.324s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig.cmake
+[7.324s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig-version.cmake
+[7.324s] -- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/package.xml
+[7.329s] Invoked command in '/home/ubpi5/ws_livox/build/livox_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorLKAMNa/usr/lib/:/tmp/.mount_CursorLKAMNa/usr/lib32/:/tmp/.mount_CursorLKAMNa/usr/lib64/:/tmp/.mount_CursorLKAMNa/lib/:/tmp/.mount_CursorLKAMNa/lib/i386-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/x86_64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib/aarch64-linux-gnu/:/tmp/.mount_CursorLKAMNa/lib32/:/tmp/.mount_CursorLKAMNa/lib64/ /usr/bin/cmake --install /home/ubpi5/ws_livox/build/livox_ros2_driver

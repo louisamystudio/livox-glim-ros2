@@ -1,0 +1,1 @@
+/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_interfaces/msg/CustomPoint.msg

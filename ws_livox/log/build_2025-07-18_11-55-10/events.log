@@ -1,0 +1,408 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.000269] (-) JobUnselected: {'identifier': 'livox_sdk'}
+[0.000306] (livox_ros2_driver) JobQueued: {'identifier': 'livox_ros2_driver', 'dependencies': OrderedDict({'livox_interfaces': '/home/ubpi5/ws_livox/install/livox_interfaces'})}
+[0.000386] (livox_ros2_driver) JobStarted: {'identifier': 'livox_ros2_driver'}
+[0.101439] (-) TimerEvent: {}
+[0.201934] (-) TimerEvent: {}
+[0.307453] (-) TimerEvent: {}
+[0.361539] (livox_ros2_driver) JobProgress: {'identifier': 'livox_ros2_driver', 'progress': 'cmake'}
+[0.397043] (livox_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubpi5/ws_livox/install/livox_ros2_driver'], 'cwd': '/home/ubpi5/ws_livox/build/livox_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubpi5', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorhOCKCB/usr/lib/:/tmp/.mount_CursorhOCKCB/usr/lib32/:/tmp/.mount_CursorhOCKCB/usr/lib64/:/tmp/.mount_CursorhOCKCB/lib/:/tmp/.mount_CursorhOCKCB/lib/i386-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib/x86_64-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib/aarch64-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib32/:/tmp/.mount_CursorhOCKCB/lib64/', 'BROWSER': 'brave-browser', 'HOME': '/home/ubpi5', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_CursorhOCKCB', 'OLDPWD': '/home/ubpi5', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.2.4', 'DESKTOP_SESSION': 'ubuntu', 'PERLLIB': '/tmp/.mount_CursorhOCKCB/usr/share/perl5/:/tmp/.mount_CursorhOCKCB/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/cursor', 'MANAGERPID': '2922', 'npm_config_yes': 'true', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3104', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f8adec680605be5e563d8ede687a2f34', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '36866', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubpi5/ws_livox/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubpi5', 'OWD': '/home/ubpi5/Applications', 'JOURNAL_STREAM': '8:19436', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubpi5', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/opt/ros/jazzy/bin:/tmp/.mount_CursorhOCKCB/usr/bin/:/tmp/.mount_CursorhOCKCB/usr/sbin/:/tmp/.mount_CursorhOCKCB/usr/games/:/tmp/.mount_CursorhOCKCB/bin/:/tmp/.mount_CursorhOCKCB/sbin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubpi5:@/tmp/.ICE-unix/3104,unix/ubpi5:/tmp/.ICE-unix/3104', 'INVOCATION_ID': '2a4aaa73be484734a321265525b2a409', 'APPIMAGE': '/home/ubpi5/Applications/Cursor-1.2.1-aarch64.AppImage', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NCWI92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fb12d0afb9.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': 'affa5acd4efe463184241ad7cccf0669', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_CursorhOCKCB/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/ubpi5/ws_livox/install/livox_ros2_driver:/home/ubpi5/ws_livox/install/livox_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'ARGV0': '/home/ubpi5/Applications/Cursor-1.2.1-aarch64.AppImage', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubpi5/ws_livox/build/livox_ros2_driver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f8adec680605be5e563d8ede687a2f34', 'XDG_DATA_DIRS': '/tmp/.mount_CursorhOCKCB/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubpi5/ws_livox/install/livox_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLUGIN_PATH': '/tmp/.mount_CursorhOCKCB/usr/lib/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib32/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib64/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib32/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.408558] (-) TimerEvent: {}
+[0.521470] (-) TimerEvent: {}
+[0.624454] (-) TimerEvent: {}
+[0.700654] (livox_ros2_driver) StdoutLine: {'line': b'-- livox_ros2_driver version: 0.0.1\n'}
+[0.715082] (livox_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[0.731603] (-) TimerEvent: {}
+[0.837399] (-) TimerEvent: {}
+[0.940161] (-) TimerEvent: {}
+[1.040607] (-) TimerEvent: {}
+[1.141058] (-) TimerEvent: {}
+[1.241525] (-) TimerEvent: {}
+[1.350412] (-) TimerEvent: {}
+[1.454396] (-) TimerEvent: {}
+[1.554754] (-) TimerEvent: {}
+[1.655694] (-) TimerEvent: {}
+[1.761415] (-) TimerEvent: {}
+[1.864441] (-) TimerEvent: {}
+[1.968435] (-) TimerEvent: {}
+[2.068885] (-) TimerEvent: {}
+[2.172418] (-) TimerEvent: {}
+[2.274408] (-) TimerEvent: {}
+[2.374756] (-) TimerEvent: {}
+[2.477389] (-) TimerEvent: {}
+[2.580396] (-) TimerEvent: {}
+[2.680975] (-) TimerEvent: {}
+[2.783392] (-) TimerEvent: {}
+[2.884461] (-) TimerEvent: {}
+[2.986571] (-) TimerEvent: {}
+[3.032715] (livox_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.086832] (-) TimerEvent: {}
+[3.188453] (-) TimerEvent: {}
+[3.291471] (-) TimerEvent: {}
+[3.394392] (-) TimerEvent: {}
+[3.496434] (-) TimerEvent: {}
+[3.602414] (-) TimerEvent: {}
+[3.702824] (-) TimerEvent: {}
+[3.803355] (-) TimerEvent: {}
+[3.907404] (-) TimerEvent: {}
+[4.008742] (-) TimerEvent: {}
+[4.109120] (-) TimerEvent: {}
+[4.215407] (-) TimerEvent: {}
+[4.315826] (-) TimerEvent: {}
+[4.417719] (-) TimerEvent: {}
+[4.485367] (livox_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.519461] (-) TimerEvent: {}
+[4.551585] (livox_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.621422] (-) TimerEvent: {}
+[4.701295] (livox_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.721518] (-) TimerEvent: {}
+[4.826422] (-) TimerEvent: {}
+[4.836606] (livox_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.928434] (-) TimerEvent: {}
+[5.028797] (-) TimerEvent: {}
+[5.129601] (-) TimerEvent: {}
+[5.237437] (-) TimerEvent: {}
+[5.337918] (-) TimerEvent: {}
+[5.407514] (livox_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.409660] (livox_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.439203] (-) TimerEvent: {}
+[5.539883] (-) TimerEvent: {}
+[5.645433] (-) TimerEvent: {}
+[5.746038] (-) TimerEvent: {}
+[5.850402] (-) TimerEvent: {}
+[5.953427] (-) TimerEvent: {}
+[6.056429] (-) TimerEvent: {}
+[6.085414] (livox_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.159424] (-) TimerEvent: {}
+[6.259929] (-) TimerEvent: {}
+[6.365431] (-) TimerEvent: {}
+[6.466467] (-) TimerEvent: {}
+[6.569396] (-) TimerEvent: {}
+[6.671410] (-) TimerEvent: {}
+[6.779266] (-) TimerEvent: {}
+[6.879664] (-) TimerEvent: {}
+[6.982496] (-) TimerEvent: {}
+[7.082979] (-) TimerEvent: {}
+[7.193549] (-) TimerEvent: {}
+[7.296076] (-) TimerEvent: {}
+[7.396967] (-) TimerEvent: {}
+[7.501199] (-) TimerEvent: {}
+[7.601543] (-) TimerEvent: {}
+[7.703670] (-) TimerEvent: {}
+[7.806709] (-) TimerEvent: {}
+[7.907587] (-) TimerEvent: {}
+[8.017434] (-) TimerEvent: {}
+[8.118430] (-) TimerEvent: {}
+[8.220396] (-) TimerEvent: {}
+[8.265926] (livox_ros2_driver) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[8.266372] (livox_ros2_driver) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[8.280218] (livox_ros2_driver) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[8.280552] (livox_ros2_driver) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[8.280688] (livox_ros2_driver) StderrLine: {'line': b'\n'}
+[8.280812] (livox_ros2_driver) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[8.280933] (livox_ros2_driver) StderrLine: {'line': b'\n'}
+[8.281048] (livox_ros2_driver) StderrLine: {'line': b'    /usr\n'}
+[8.281163] (livox_ros2_driver) StderrLine: {'line': b'\n'}
+[8.281277] (livox_ros2_driver) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[8.281414] (livox_ros2_driver) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[8.281533] (livox_ros2_driver) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.281646] (livox_ros2_driver) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[8.281760] (livox_ros2_driver) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[8.281873] (livox_ros2_driver) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[8.281988] (livox_ros2_driver) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[8.282102] (livox_ros2_driver) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[8.282216] (livox_ros2_driver) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)\n'}
+[8.282336] (livox_ros2_driver) StderrLine: {'line': b'  CMakeLists.txt:30 (ament_auto_find_build_dependencies)\n'}
+[8.282471] (livox_ros2_driver) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.282590] (livox_ros2_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[8.300394] (livox_ros2_driver) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[8.324407] (-) TimerEvent: {}
+[8.426051] (-) TimerEvent: {}
+[8.531397] (-) TimerEvent: {}
+[8.632092] (-) TimerEvent: {}
+[8.738419] (-) TimerEvent: {}
+[8.838838] (-) TimerEvent: {}
+[8.940996] (-) TimerEvent: {}
+[9.044394] (-) TimerEvent: {}
+[9.146510] (-) TimerEvent: {}
+[9.246888] (-) TimerEvent: {}
+[9.347367] (-) TimerEvent: {}
+[9.447837] (-) TimerEvent: {}
+[9.553891] (-) TimerEvent: {}
+[9.657399] (-) TimerEvent: {}
+[9.758199] (-) TimerEvent: {}
+[9.861429] (-) TimerEvent: {}
+[9.964436] (-) TimerEvent: {}
+[10.064893] (-) TimerEvent: {}
+[10.172499] (-) TimerEvent: {}
+[10.277406] (-) TimerEvent: {}
+[10.378403] (-) TimerEvent: {}
+[10.478825] (-) TimerEvent: {}
+[10.583320] (-) TimerEvent: {}
+[10.683953] (-) TimerEvent: {}
+[10.789396] (-) TimerEvent: {}
+[10.892405] (-) TimerEvent: {}
+[10.995446] (-) TimerEvent: {}
+[11.096430] (-) TimerEvent: {}
+[11.204405] (-) TimerEvent: {}
+[11.304794] (-) TimerEvent: {}
+[11.407408] (-) TimerEvent: {}
+[11.510824] (-) TimerEvent: {}
+[11.614393] (-) TimerEvent: {}
+[11.714757] (-) TimerEvent: {}
+[11.817521] (-) TimerEvent: {}
+[11.834423] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[11.917655] (-) TimerEvent: {}
+[11.928380] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[12.020416] (-) TimerEvent: {}
+[12.120844] (-) TimerEvent: {}
+[12.221619] (-) TimerEvent: {}
+[12.322056] (-) TimerEvent: {}
+[12.422405] (-) TimerEvent: {}
+[12.522779] (-) TimerEvent: {}
+[12.623172] (-) TimerEvent: {}
+[12.725786] (-) TimerEvent: {}
+[12.828404] (-) TimerEvent: {}
+[12.929824] (-) TimerEvent: {}
+[13.031911] (-) TimerEvent: {}
+[13.137392] (-) TimerEvent: {}
+[13.244394] (-) TimerEvent: {}
+[13.347394] (-) TimerEvent: {}
+[13.447855] (-) TimerEvent: {}
+[13.551426] (-) TimerEvent: {}
+[13.654404] (-) TimerEvent: {}
+[13.754978] (-) TimerEvent: {}
+[13.857452] (-) TimerEvent: {}
+[13.958582] (-) TimerEvent: {}
+[14.068591] (-) TimerEvent: {}
+[14.169102] (-) TimerEvent: {}
+[14.270497] (-) TimerEvent: {}
+[14.353624] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[14.370628] (-) TimerEvent: {}
+[14.378450] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[14.473406] (-) TimerEvent: {}
+[14.573814] (-) TimerEvent: {}
+[14.674872] (-) TimerEvent: {}
+[14.777486] (-) TimerEvent: {}
+[14.877999] (-) TimerEvent: {}
+[14.981393] (-) TimerEvent: {}
+[15.081743] (-) TimerEvent: {}
+[15.185453] (-) TimerEvent: {}
+[15.288945] (-) TimerEvent: {}
+[15.389356] (-) TimerEvent: {}
+[15.489889] (-) TimerEvent: {}
+[15.590309] (-) TimerEvent: {}
+[15.690685] (-) TimerEvent: {}
+[15.791025] (-) TimerEvent: {}
+[15.891912] (-) TimerEvent: {}
+[15.994636] (-) TimerEvent: {}
+[16.095129] (-) TimerEvent: {}
+[16.195707] (-) TimerEvent: {}
+[16.298407] (-) TimerEvent: {}
+[16.399567] (-) TimerEvent: {}
+[16.505420] (-) TimerEvent: {}
+[16.607450] (-) TimerEvent: {}
+[16.707804] (-) TimerEvent: {}
+[16.810653] (-) TimerEvent: {}
+[16.917396] (-) TimerEvent: {}
+[17.017784] (-) TimerEvent: {}
+[17.118193] (-) TimerEvent: {}
+[17.219251] (-) TimerEvent: {}
+[17.322399] (-) TimerEvent: {}
+[17.425403] (-) TimerEvent: {}
+[17.525861] (-) TimerEvent: {}
+[17.631395] (-) TimerEvent: {}
+[17.733771] (-) TimerEvent: {}
+[17.836866] (-) TimerEvent: {}
+[17.939462] (-) TimerEvent: {}
+[18.021383] (livox_ros2_driver) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[18.039592] (-) TimerEvent: {}
+[18.140016] (-) TimerEvent: {}
+[18.242101] (-) TimerEvent: {}
+[18.348462] (-) TimerEvent: {}
+[18.451277] (-) TimerEvent: {}
+[18.557411] (-) TimerEvent: {}
+[18.657828] (-) TimerEvent: {}
+[18.760267] (-) TimerEvent: {}
+[18.863993] (-) TimerEvent: {}
+[18.966498] (-) TimerEvent: {}
+[19.070439] (-) TimerEvent: {}
+[19.173439] (-) TimerEvent: {}
+[19.276848] (-) TimerEvent: {}
+[19.381441] (-) TimerEvent: {}
+[19.481797] (-) TimerEvent: {}
+[19.582196] (-) TimerEvent: {}
+[19.686418] (-) TimerEvent: {}
+[19.789412] (-) TimerEvent: {}
+[19.890621] (-) TimerEvent: {}
+[19.996401] (-) TimerEvent: {}
+[20.098545] (-) TimerEvent: {}
+[20.199495] (-) TimerEvent: {}
+[20.301381] (-) TimerEvent: {}
+[20.403921] (-) TimerEvent: {}
+[20.504434] (-) TimerEvent: {}
+[20.612685] (-) TimerEvent: {}
+[20.715425] (-) TimerEvent: {}
+[20.817406] (-) TimerEvent: {}
+[20.920419] (-) TimerEvent: {}
+[21.020911] (-) TimerEvent: {}
+[21.126893] (-) TimerEvent: {}
+[21.230406] (-) TimerEvent: {}
+[21.301136] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[21.337409] (-) TimerEvent: {}
+[21.437901] (-) TimerEvent: {}
+[21.538537] (-) TimerEvent: {}
+[21.641411] (-) TimerEvent: {}
+[21.742041] (-) TimerEvent: {}
+[21.846450] (-) TimerEvent: {}
+[21.947108] (-) TimerEvent: {}
+[22.056406] (-) TimerEvent: {}
+[22.159416] (-) TimerEvent: {}
+[22.259879] (-) TimerEvent: {}
+[22.360298] (-) TimerEvent: {}
+[22.465641] (-) TimerEvent: {}
+[22.566133] (-) TimerEvent: {}
+[22.670480] (-) TimerEvent: {}
+[22.776558] (-) TimerEvent: {}
+[22.882421] (-) TimerEvent: {}
+[22.984493] (-) TimerEvent: {}
+[23.085151] (-) TimerEvent: {}
+[23.189637] (-) TimerEvent: {}
+[23.294427] (-) TimerEvent: {}
+[23.394949] (-) TimerEvent: {}
+[23.498398] (-) TimerEvent: {}
+[23.598842] (-) TimerEvent: {}
+[23.700431] (-) TimerEvent: {}
+[23.805776] (-) TimerEvent: {}
+[23.907484] (-) TimerEvent: {}
+[24.013475] (-) TimerEvent: {}
+[24.115414] (-) TimerEvent: {}
+[24.218186] (-) TimerEvent: {}
+[24.323394] (-) TimerEvent: {}
+[24.424186] (-) TimerEvent: {}
+[24.530447] (-) TimerEvent: {}
+[24.632404] (-) TimerEvent: {}
+[24.732972] (-) TimerEvent: {}
+[24.840073] (-) TimerEvent: {}
+[24.946640] (-) TimerEvent: {}
+[25.047050] (-) TimerEvent: {}
+[25.094110] (livox_ros2_driver) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:31 (find_package):\n'}
+[25.094421] (livox_ros2_driver) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[25.094528] (livox_ros2_driver) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[25.094615] (livox_ros2_driver) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[25.094699] (livox_ros2_driver) StderrLine: {'line': b'\n'}
+[25.094781] (livox_ros2_driver) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[25.094861] (livox_ros2_driver) StderrLine: {'line': b'\n'}
+[25.094940] (livox_ros2_driver) StderrLine: {'line': b'    /usr\n'}
+[25.095021] (livox_ros2_driver) StderrLine: {'line': b'\n'}
+[25.095101] (livox_ros2_driver) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[25.095180] (livox_ros2_driver) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[25.095258] (livox_ros2_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[25.152414] (-) TimerEvent: {}
+[25.240482] (livox_ros2_driver) StderrLine: {'line': b'\x1b[0m/usr/include/apr-1.0\x1b[0m\n'}
+[25.240739] (livox_ros2_driver) StderrLine: {'line': b'\x1b[0mapr-1\x1b[0m\n'}
+[25.256400] (-) TimerEvent: {}
+[25.356825] (-) TimerEvent: {}
+[25.399359] (livox_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[25.458400] (-) TimerEvent: {}
+[25.559069] (-) TimerEvent: {}
+[25.651484] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[25.663423] (-) TimerEvent: {}
+[25.695002] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[25.716490] (livox_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/../Livox-SDK/sdk_core/include;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/common;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/common/rapidjson;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/comon/rapdidxml;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/common/comm;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/timesync;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/timesync/user_uart;/home/ubpi5/ws_livox/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver\n'}
+[25.716781] (livox_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[25.756823] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[25.757235] (livox_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[25.769407] (-) TimerEvent: {}
+[25.776648] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[25.776934] (livox_ros2_driver) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[25.796929] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[25.806676] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[25.843147] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[25.843646] (livox_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[25.849485] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[25.873401] (-) TimerEvent: {}
+[25.892939] (livox_ros2_driver) StdoutLine: {'line': b'-- Configuring done (25.3s)\n'}
+[25.973523] (-) TimerEvent: {}
+[26.083399] (-) TimerEvent: {}
+[26.183881] (-) TimerEvent: {}
+[26.288397] (-) TimerEvent: {}
+[26.389300] (-) TimerEvent: {}
+[26.494432] (-) TimerEvent: {}
+[26.600487] (-) TimerEvent: {}
+[26.701228] (-) TimerEvent: {}
+[26.804303] (-) TimerEvent: {}
+[26.912847] (-) TimerEvent: {}
+[26.953696] (livox_ros2_driver) StdoutLine: {'line': b'-- Generating done (0.8s)\n'}
+[26.978868] (livox_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/ubpi5/ws_livox/build/livox_ros2_driver\n'}
+[27.012968] (-) TimerEvent: {}
+[27.101175] (livox_ros2_driver) CommandEnded: {'returncode': 0}
+[27.108791] (livox_ros2_driver) JobProgress: {'identifier': 'livox_ros2_driver', 'progress': 'build'}
+[27.108846] (livox_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubpi5/ws_livox/build/livox_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubpi5/ws_livox/build/livox_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubpi5', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorhOCKCB/usr/lib/:/tmp/.mount_CursorhOCKCB/usr/lib32/:/tmp/.mount_CursorhOCKCB/usr/lib64/:/tmp/.mount_CursorhOCKCB/lib/:/tmp/.mount_CursorhOCKCB/lib/i386-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib/x86_64-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib/aarch64-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib32/:/tmp/.mount_CursorhOCKCB/lib64/', 'BROWSER': 'brave-browser', 'HOME': '/home/ubpi5', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_CursorhOCKCB', 'OLDPWD': '/home/ubpi5', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.2.4', 'DESKTOP_SESSION': 'ubuntu', 'PERLLIB': '/tmp/.mount_CursorhOCKCB/usr/share/perl5/:/tmp/.mount_CursorhOCKCB/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/cursor', 'MANAGERPID': '2922', 'npm_config_yes': 'true', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3104', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f8adec680605be5e563d8ede687a2f34', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '36866', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubpi5/ws_livox/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubpi5', 'OWD': '/home/ubpi5/Applications', 'JOURNAL_STREAM': '8:19436', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubpi5', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/opt/ros/jazzy/bin:/tmp/.mount_CursorhOCKCB/usr/bin/:/tmp/.mount_CursorhOCKCB/usr/sbin/:/tmp/.mount_CursorhOCKCB/usr/games/:/tmp/.mount_CursorhOCKCB/bin/:/tmp/.mount_CursorhOCKCB/sbin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubpi5:@/tmp/.ICE-unix/3104,unix/ubpi5:/tmp/.ICE-unix/3104', 'INVOCATION_ID': '2a4aaa73be484734a321265525b2a409', 'APPIMAGE': '/home/ubpi5/Applications/Cursor-1.2.1-aarch64.AppImage', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NCWI92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fb12d0afb9.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': 'affa5acd4efe463184241ad7cccf0669', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_CursorhOCKCB/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/ubpi5/ws_livox/install/livox_ros2_driver:/home/ubpi5/ws_livox/install/livox_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'ARGV0': '/home/ubpi5/Applications/Cursor-1.2.1-aarch64.AppImage', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubpi5/ws_livox/build/livox_ros2_driver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f8adec680605be5e563d8ede687a2f34', 'XDG_DATA_DIRS': '/tmp/.mount_CursorhOCKCB/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubpi5/ws_livox/install/livox_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLUGIN_PATH': '/tmp/.mount_CursorhOCKCB/usr/lib/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib32/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib64/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib32/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[27.113037] (-) TimerEvent: {}
+[27.213405] (-) TimerEvent: {}
+[27.317404] (-) TimerEvent: {}
+[27.418058] (-) TimerEvent: {}
+[27.521409] (-) TimerEvent: {}
+[27.623585] (-) TimerEvent: {}
+[27.724793] (-) TimerEvent: {}
+[27.853398] (-) TimerEvent: {}
+[27.966404] (-) TimerEvent: {}
+[28.075614] (-) TimerEvent: {}
+[28.178785] (-) TimerEvent: {}
+[28.279546] (-) TimerEvent: {}
+[28.404645] (-) TimerEvent: {}
+[28.457427] (livox_ros2_driver) StdoutLine: {'line': b'[ 87%] Built target livox_ros2_driver\n'}
+[28.506428] (-) TimerEvent: {}
+[28.607085] (-) TimerEvent: {}
+[28.639146] (livox_ros2_driver) StdoutLine: {'line': b'[100%] Built target livox_ros2_driver_node\n'}
+[28.676161] (livox_ros2_driver) CommandEnded: {'returncode': 0}
+[28.679445] (livox_ros2_driver) JobProgress: {'identifier': 'livox_ros2_driver', 'progress': 'install'}
+[28.707253] (-) TimerEvent: {}
+[28.745849] (livox_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubpi5/ws_livox/build/livox_ros2_driver'], 'cwd': '/home/ubpi5/ws_livox/build/livox_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubpi5', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubpi5/ws_livox/install/livox_interfaces/lib:/home/ubpi5/ws_livox/install/livox_ros2_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorhOCKCB/usr/lib/:/tmp/.mount_CursorhOCKCB/usr/lib32/:/tmp/.mount_CursorhOCKCB/usr/lib64/:/tmp/.mount_CursorhOCKCB/lib/:/tmp/.mount_CursorhOCKCB/lib/i386-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib/x86_64-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib/aarch64-linux-gnu/:/tmp/.mount_CursorhOCKCB/lib32/:/tmp/.mount_CursorhOCKCB/lib64/', 'BROWSER': 'brave-browser', 'HOME': '/home/ubpi5', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_CursorhOCKCB', 'OLDPWD': '/home/ubpi5', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.2.4', 'DESKTOP_SESSION': 'ubuntu', 'PERLLIB': '/tmp/.mount_CursorhOCKCB/usr/share/perl5/:/tmp/.mount_CursorhOCKCB/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_CursorhOCKCB/usr/share/cursor/cursor', 'MANAGERPID': '2922', 'npm_config_yes': 'true', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3104', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f8adec680605be5e563d8ede687a2f34', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '36866', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubpi5/ws_livox/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubpi5', 'OWD': '/home/ubpi5/Applications', 'JOURNAL_STREAM': '8:19436', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubpi5', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/opt/ros/jazzy/bin:/tmp/.mount_CursorhOCKCB/usr/bin/:/tmp/.mount_CursorhOCKCB/usr/sbin/:/tmp/.mount_CursorhOCKCB/usr/games/:/tmp/.mount_CursorhOCKCB/bin/:/tmp/.mount_CursorhOCKCB/sbin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubpi5:@/tmp/.ICE-unix/3104,unix/ubpi5:/tmp/.ICE-unix/3104', 'INVOCATION_ID': '2a4aaa73be484734a321265525b2a409', 'APPIMAGE': '/home/ubpi5/Applications/Cursor-1.2.1-aarch64.AppImage', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NCWI92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fb12d0afb9.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': 'affa5acd4efe463184241ad7cccf0669', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_CursorhOCKCB/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/ubpi5/ws_livox/install/livox_ros2_driver:/home/ubpi5/ws_livox/install/livox_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'ARGV0': '/home/ubpi5/Applications/Cursor-1.2.1-aarch64.AppImage', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubpi5/ws_livox/build/livox_ros2_driver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f8adec680605be5e563d8ede687a2f34', 'XDG_DATA_DIRS': '/tmp/.mount_CursorhOCKCB/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubpi5/ws_livox/install/livox_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLUGIN_PATH': '/tmp/.mount_CursorhOCKCB/usr/lib/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib32/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib64/qt4/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib32/qt5/plugins/:/tmp/.mount_CursorhOCKCB/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ubpi5/ws_livox/install/livox_interfaces:/home/ubpi5/ws_livox/install/livox_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[28.807383] (-) TimerEvent: {}
+[28.895387] (livox_ros2_driver) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[28.909380] (livox_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.909627] (-) TimerEvent: {}
+[28.909772] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node\n'}
+[28.909878] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.sh\n'}
+[28.909965] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.dsv\n'}
+[28.910046] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/lib/liblivox_ros2_driver.so\n'}
+[28.915794] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/avia_config.json\n'}
+[28.916573] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub.rviz\n'}
+[28.917170] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub_config.json\n'}
+[28.917891] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar.rviz\n'}
+[28.928742] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar_config.json\n'}
+[28.929108] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_launch.py\n'}
+[28.929219] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_msg_launch .py\n'}
+[28.938764] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_rviz_launch.py\n'}
+[28.939024] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py\n'}
+[28.939118] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_msg_launch.py\n'}
+[28.939200] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py\n'}
+[28.939282] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py\n'}
+[28.939389] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver\n'}
+[28.956099] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver\n'}
+[28.956402] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh\n'}
+[28.956504] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[28.956589] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.sh\n'}
+[28.956670] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.dsv\n'}
+[28.956749] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.bash\n'}
+[28.956828] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.sh\n'}
+[28.956905] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.zsh\n'}
+[28.956981] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.dsv\n'}
+[28.957058] (livox_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv\n'}
+[29.015476] (-) TimerEvent: {}
+[29.074405] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/ament_index/resource_index/packages/livox_ros2_driver\n'}
+[29.074730] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/ament_index/resource_index/rclcpp_components/livox_ros2_driver\n'}
+[29.074854] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.074967] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.082389] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig.cmake\n'}
+[29.082666] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig-version.cmake\n'}
+[29.085961] (livox_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubpi5/ws_livox/install/livox_ros2_driver/share/livox_ros2_driver/package.xml\n'}
+[29.100213] (livox_ros2_driver) CommandEnded: {'returncode': 0}
+[29.116827] (-) TimerEvent: {}
+[29.223065] (-) TimerEvent: {}
+[29.332475] (-) TimerEvent: {}
+[29.358634] (livox_ros2_driver) JobEnded: {'identifier': 'livox_ros2_driver', 'rc': 0}
+[29.370441] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wno-deprecated-copy -pthread -rdynamic CMakeFiles/trouble_shooting.dir/main.cpp.o -o trouble_shooting  ../../sdk_core/liblivox_sdk_static.a 
