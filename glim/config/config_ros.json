@@ -19,8 +19,7 @@
     "tf_time_offset": 1e-6,
 
     "extension_modules": [
-      "libmemory_monitor.so",
-      "libstandard_viewer.so"
+      "libmemory_monitor.so"
     ],
     "imu_topic": "/livox/imu",
     "points_topic": "/livox/lidar",
@@ -32,10 +31,14 @@
     },
     "points_qos": {
       "profile": "sensor_data",
+      "depth": 1000,
       "reliability_policy": "best_effort"
     },
     "image_qos": {
-      "profile": "sensor_data"
+      "profile": "sensor_data",
+      "depth": 10,
+      "reliability_policy": "best_effort"
     }
+
   }
 }
